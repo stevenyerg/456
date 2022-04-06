@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Layout Page</title>
+    <style>
+        .mydiv {
+            position: absolute;
+            border: 2px solid darkblue;
+            background-color: lightblue;
+        }
+
+        .header {
+            top: 0px;
+            height: 50px;
+            left: 0px;
+            right: 0px;
+        }
+
+        .sidebar {
+            left: 0px;
+            width: 150px;
+            top: 52px;
+            bottom: 32px;
+        }
+
+        .content {
+            top: 52px;
+            left: 152px;
+            bottom: 32px;
+            right: 0px;
+        }
+
+        .footer {
+            bottom: 0px;
+            height: 30px;
+            left: 0px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header mydiv">Header</div>
+    <div class="sidebar mydiv">Sidebar</div>
+    <div class="content mydiv">Content</div>
+    <div class="footer mydiv">Footer</div>
+</body>
+</html>

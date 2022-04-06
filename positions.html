@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>5 CSS Positions</title>
+</head>
+    <body>
+        <div class="parent blue">
+            Parent
+            <div class="child-one child">
+                Child 1
+            </div>
+            <div class="child-two child">
+                Child 2
+            </div>
+            <div class="child-three child">
+                Child 3
+            </div>
+        </div>
+    </body>
+</html>
+
+<style>
+    .parent {
+        font-size: 50px;
+        font-weight: 900;
+        color: white;
+        width: 500px;
+        height: 250vh;
+        background-color: royalblue;
+        position: absolute;
+    }
+    .child-one {
+        background-color: lightgreen;
+        position: absolute;
+        z-index: 3;
+    }
+    .child-two {
+        background-color: salmon;
+        position: absolute;
+        z-index: 1;
+    }
+    .child-three {
+        background-color: fuchsia;
+        position: absolute;
+    }
+
+    .child {
+        color: black;
+    }
+
+</style>
